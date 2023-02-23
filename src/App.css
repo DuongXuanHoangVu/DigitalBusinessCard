@@ -3,3 +3,151 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-family: 'Inter', sans-serif;
+  font-size: 62.5%;
+}
+
+.App {
+  width: 550px;
+  height: 868px;
+  margin: 0 auto;
+  background: #23252C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 317px;
+  height: 780px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.header {
+  padding-top: 100%;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Tom_Holland_by_Gage_Skidmore.jpg/1200px-Tom_Holland_by_Gage_Skidmore.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-radius: 10px 10px 0 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F5F5F5;
+  padding: 20px 35px;
+}
+
+.user-name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 30px;
+  color: #2B283A;
+  margin-bottom: 6.19px;
+}
+
+.user-job {
+  font-weight: 400;
+  font-size: 1.28rem;
+  line-height: 15px;
+  color: #F47D27;
+  margin-bottom: 8.81px;
+}
+
+.user-website {
+  font-weight: 400;
+  font-size: 1.024rem;
+  line-height: 150%;
+  color: #4A4E74;
+  margin-bottom: 17px;
+}
+
+.user-social {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 25px;
+}
+
+.btn span {
+  font-size: 1.4rem;
+  margin-left: 9.6px;
+}
+
+.btn-email {
+  background-color: #fff;
+  border: 1px solid #D1D5DB;
+  box-shadow: 0px 1px 2px 0px #0000000D;
+  color: #374151;
+}
+
+.btn-linked {
+  background: #297FE5;
+  box-shadow: 0px 1px 2px 0px #0000000D;
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
+
+.user-about h3, 
+.user-interests h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.user-about p, 
+.user-interests p {
+  font-size: 1.024rem;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.user-about {
+  margin-bottom: 27px;
+}
+
+.user-interests {
+  margin-bottom: 31px;
+}
+
+.footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 73px;
+  align-items: center;
+  background: #D5D4D8;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer span {
+  cursor: pointer;
+}
+
+.footer span:hover {
+  opacity: 0.6;
+}
